@@ -15,6 +15,4 @@ The class of models that will be applied to the dataset are unsupervised learnin
 ## Algorithms:
 Clustering algorithms will be used. 
 1. K-means clustering will be used because the algorithm is unsupervised. K-means is efficient and easy to parallelize which fits our large dataset. However, k-means is sensitive to outliers and assumes normally distributed clusters. 
-2. The DBSCAN algorithm will also be used because the algorithm is unsupervised. DBSCAN can detect outliers and the shape of the clusters and number of <clusters is not necessary prior to running the algorithm.
-
-The DBSCAN algorithm will also be used because the algorithm is unsupervised. DBSCAN can detect outliers and the shape of the clusters and number of <clusters is not necessary prior to running the algorithm.
+2. The DBSCAN algorithm will also be used because the algorithm is unsupervised. DBSCAN can detect outliers and the shape of the clusters and number of clusters does not need to be known prior to running the algorithm.
