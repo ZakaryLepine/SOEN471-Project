@@ -26,11 +26,9 @@ In total, there are 7 features to the dataset.
 - The star4 feature is a string type that represents the name of the fourth star of the movie. 
 
 ## The research questions to be addressed in the project
-Can we predict the movie genre?  
+Can we predict movie genres and which specific features within the dataset play a pivotal role in accurately predicting movie genres?
 
-Which feature is most important to precisely predict the movie genre?
-
-How can we use KNN on non-numerical data?  
+How can K-Nearest Neighbors be effectively utilized for movie genre prediction, particularly when dealing with non-numeric data, and what preprocessing techniques are necessary to maximize its performance?
 
 ## The class of models to be applied to the dataset
 The class of models that will be applied to the dataset are supervised learning models since we are predicting a feature that is labeled.
