@@ -1,18 +1,34 @@
 # SOEN471-Project
-We possess two Selenium automation scripts tasked with retrieving data from given websites by MECP in text files, where the data extracted will be stored in tabular format within .xlsx files. Our goal is to integrate these scripts into Crawlab, a web scraping tool, to streamline their execution and enable the storage of results in a MySQL database. 
+## Describe the dataset and main characteristics (number and type of features)
+The dataset represents the characteristics of movies. 
+In total, there are 7 features to the dataset. 
 
-While our future plans include designing a prediction model using this data, we currently lack a provided dataset to accurately determine the most suitable algorithm. As a result, we are analyzing the situation based on the available information, relying on our understanding of the task to guide our approach. 
+The title feature is a string type which represents the name of the movie, 
+The year feature is an integer type that represents the year of release of the movie, 
+The runtime feature is an integer type which represents the length of the movie in minutes
+The genre feature is a string type that represents the category of the movie and is the prediction label
+The director feature is a string type that represents the person who directed the film, 
+The writer feature is a string type that represents the person who wrote the film, 
+The ratings feature is a floating-point number type that represents the weighted average of the movie ratings, 
+The star1 feature is a string type that represents the name of the first star of the movie,
+The star2 feature is a string type that represents the name of the second star of the movie,
+The star3 feature is of string type that represents the name of the third star of the movie, 
+The star4 feature is a string type that represents the name of the fourth star of the movie. 
 
-## Describe dataset and main characteristics (number and type of features):
-The dataset represents supplier items and their item characteristics. The color feature represents the color of the item and is of text type, the brand represents the company that manufactures the item and is of text type, the availability represents whether the item is in stock or not and is of boolean type, the packaging represents a unit of the item and is of type text, the capacity represents the number of items per unit of item and is of numerical type.
+## The research questions to be addressed in the project
+Can we predict the movie genre?  
 
-## The research questions to be addressed in the project:
-How can we develop a model to predict the stock levels of an item? How can we develop a model to identify the season during which an item’s demand peaks?
+Which feature is most important to precisely predict the movie genre?
 
-## The class of models to be applied to the dataset:
-The class of models that will be applied to the dataset are unsupervised learning models since we are predicting features that are not labeled.
+How can we use KNN on non-numerical data?  
 
-## Algorithms:
-Clustering algorithms will be used. 
-1. K-means clustering will be used because the algorithm is unsupervised. K-means is efficient and easy to parallelize which fits our large dataset. However, k-means is sensitive to outliers and assumes normally distributed clusters. 
-2. The DBSCAN algorithm will also be used because the algorithm is unsupervised. DBSCAN can detect outliers and the shape of the clusters and number of clusters does not need to be known prior to running the algorithm.
+## The class of models to be applied to the dataset
+The class of models that will be applied to the dataset are supervised learning models since we are predicting features that are labeled.
+
+
+## Algorithms
+The Decision Tree algorithm will be used. The Decision Tree algorithm will be used because it is a supervised classification algorithm. The Decision Tree algorithm can handle both numerical and categorical data. However, decision trees can suffer from overfitting. 
+The Random Forest algorithm will be used. The Random Forest algorithm will be used because it is a supervised classification algorithm. The algorithm will avoid the problem of overfitting the training set. Furthermore, the algorithm can easily be parallelized, reducing the time to train the model.
+
+The K-Nearest Neighbors algorithm will be used. The K-Nearest Neighbors algorithm will be used because it is a supervised classification algorithm. However, cross-validation will need to be performed to choose k. Moreover, careful thought will need to be put into choosing a distance metric since a lot of our data is string-based. 
+
