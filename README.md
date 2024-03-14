@@ -33,8 +33,7 @@ Which feature is most important to precisely predict the movie genre?
 How can we use KNN on non-numerical data?  
 
 ## The class of models to be applied to the dataset
-The class of models that will be applied to the dataset are supervised learning models since we are predicting features that are labeled.
-
+The class of models that will be applied to the dataset are supervised learning models since we are predicting a feature that is labeled.
 
 ## Algorithms
 The Decision Tree algorithm will be used. The Decision Tree algorithm will be used because it is a supervised classification algorithm. The Decision Tree algorithm can handle both numerical and categorical data. However, decision trees can suffer from overfitting. 
