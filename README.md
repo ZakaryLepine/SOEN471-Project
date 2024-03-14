@@ -3,27 +3,27 @@
 The dataset represents the characteristics of movies. 
 In total, there are 7 features to the dataset. 
 
-The title feature is a string type which represents the name of the movie.
+- The title feature is a string type which represents the name of the movie.
 
-The year feature is an integer type that represents the year of release of the movie.
+- The year feature is an integer type that represents the year of release of the movie.
 
-The runtime feature is an integer type which represents the length of the movie in minutes.
+- The runtime feature is an integer type which represents the length of the movie in minutes.
 
-The genre feature is a string type that represents the category of the movie and is the prediction label.
+- The genre feature is a string type that represents the category of the movie and is the prediction label.
 
-The director feature is a string type that represents the person who directed the film.
+- The director feature is a string type that represents the person who directed the film.
 
-The writer feature is a string type that represents the person who wrote the film.
+- The writer feature is a string type that represents the person who wrote the film.
 
-The ratings feature is a floating-point number type that represents the weighted average of the movie ratings.
+- The ratings feature is a floating-point number type that represents the weighted average of the movie ratings.
 
-The star1 feature is a string type that represents the name of the first star of the movie.
+- The star1 feature is a string type that represents the name of the first star of the movie.
 
-The star2 feature is a string type that represents the name of the second star of the movie.
+- The star2 feature is a string type that represents the name of the second star of the movie.
 
-The star3 feature is of string type that represents the name of the third star of the movie.
+- The star3 feature is of string type that represents the name of the third star of the movie.
 
-The star4 feature is a string type that represents the name of the fourth star of the movie. 
+- The star4 feature is a string type that represents the name of the fourth star of the movie. 
 
 ## The research questions to be addressed in the project
 Can we predict the movie genre?  
